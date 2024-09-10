@@ -40,7 +40,7 @@ while True:
             ndepositos += 1
         depHist.append(f"Depósito {ndepositos}: R${valor}")
     elif opcao == 's':
-        print("Saque")
+        print("Saque") 
         valorSaque = float(input("Digite o valor que deseja sacar: "))
         if valorSaque > 500:
             print('O limite dos valores de saque é R$ 500 por saque, tente novamente!')
